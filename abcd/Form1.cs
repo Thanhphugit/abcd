@@ -19,7 +19,11 @@ namespace abcd
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("phep cong");
+            int a, b, kq;
+            a = int.Parse(txtsoa.Text);
+            b = int.Parse(txtsob.Text);
+            kq = a + b;
+            txtkq.Text=kq.ToString();    
         }
     }
 }
