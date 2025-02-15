@@ -19,6 +19,7 @@ namespace abcd
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (txtsoa.Text != String.Empty) ;
             int a, b, kq;
             a = int.Parse(txtsoa.Text);
             b = int.Parse(txtsob.Text);
